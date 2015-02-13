@@ -1,0 +1,19 @@
+{
+  "name": "Rails::API Authentication Demo",
+  "description": "Demonstrate the Simple Token Authentication behaviour in a Rails::API application.",
+  "keywords": [
+    "token authentication",
+    "devise",
+    "simple_token_authentication",
+    "demo",
+    "rails-api"
+  ],
+  "scripts": {
+    "postdeploy": "bundle exec rake db:migrate db:seed"
+  },
+  "addons": [],
+  "env": {
+    "LANG": "en_US.UTF-8",
+    "RAILS_ENV": "production"
+  }
+}
