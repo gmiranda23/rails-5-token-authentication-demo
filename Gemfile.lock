@@ -1,3 +1,13 @@
+GIT
+  remote: https://github.com/gonzalo-bulnes/simple_token_authentication.git
+  revision: 9a02a76aab06e4684a9671fc6087b91d9fdb3daf
+  branch: spike-add-rails-5-support
+  specs:
+    simple_token_authentication (1.12.0)
+      actionmailer (>= 3.2.6, < 5.1)
+      actionpack (>= 3.2.6, < 5.1)
+      devise (>= 3.2, < 5)
+
 GEM
   remote: https://rubygems.org/
   specs:
@@ -177,6 +187,7 @@ DEPENDENCIES
   puma
   rails (>= 5.0.0.beta3, < 5.1)
   sass-rails (~> 5.0)
+  simple_token_authentication!
   spring
   spring-watcher-listen (~> 2.0.0)
   sqlite3

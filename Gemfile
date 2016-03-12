@@ -31,6 +31,7 @@ gem 'jbuilder', '~> 2.0'
 # gem 'capistrano-rails', group: :development
 
 gem 'devise', '>= 4.0.0.rc2', '< 5'
+gem 'simple_token_authentication', git: 'https://github.com/gonzalo-bulnes/simple_token_authentication.git', branch: 'spike-add-rails-5-support'
 
 group :development, :test do
   # Call 'byebug' anywhere in the code to stop execution and get a debugger console
