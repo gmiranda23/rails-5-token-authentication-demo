@@ -1,9 +1,14 @@
+require 'dredd/rack'
+
 # Add your own tasks in files placed in lib/tasks ending in .rake,
 # for example lib/tasks/capistrano.rake, and they will automatically be available to Rake.
 
 require File.expand_path('../config/application', __FILE__)
 
 Rails.application.load_tasks
+
+# Define the :dredd task
+Dredd::Rack::RakeTask.new # run: `dredd doc/*.apib doc/*.apib.md <local or remote URL>`
 
 namespace :app_json do
   desc 'Validate the app.json manifest'
@@ -36,4 +41,4 @@ namespace :app_json do
   end
 end
 
-task :default => ['app_json:validate']
+task :default => ['app_json:validate', :dredd]
