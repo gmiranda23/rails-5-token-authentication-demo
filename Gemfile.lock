@@ -1,6 +1,7 @@
 GIT
   remote: https://github.com/gonzalo-bulnes/simple_token_authentication.git
-  revision: 90459c82c9b074fd6e364dc56a2a12c98465f6a2
+  revision: 090ad57392b06fa1defbb70e8faa04fda99d5db1
+  ref: 090ad57392b06fa1defbb70e8faa04fda99d5db1
   branch: spike-add-rails-5-support-without-backward-compatibility-breakage
   specs:
     simple_token_authentication (1.12.0)
@@ -132,7 +133,7 @@ GEM
       rake (>= 0.8.7)
       thor (>= 0.18.1, < 2.0)
     rainbow (2.1.0)
-    rake (11.1.1)
+    rake (11.1.2)
     rb-fsevent (0.9.7)
     rb-inotify (0.9.7)
       ffi (>= 0.5.0)
