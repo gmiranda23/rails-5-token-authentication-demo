@@ -29,7 +29,7 @@ gem 'jbuilder', '~> 2.0'
 # gem 'capistrano-rails', group: :development
 
 gem 'devise', '>= 4.0.0.rc2', '< 5'
-gem 'simple_token_authentication', git: 'https://github.com/gonzalo-bulnes/simple_token_authentication.git', branch: 'spike-add-rails-5-support'
+gem 'simple_token_authentication', '~> 1.0'
 
 gem 'rainbow', '~> 2.0'
 
