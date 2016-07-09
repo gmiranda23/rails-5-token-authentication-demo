@@ -6,8 +6,6 @@ Demonstrate the [Simple Token Authentication][see] usage in a Rails 5 app.
   [see]: https://github.com/gonzalo-bulnes/simple_token_authentication
   [rails-5]: https://github.com/gonzalo-bulnes/simple_token_authentication/issues/214
 
-> **NOTICE**: This appliction uses an experimental version of Simple Token Authentication, see [this issue][rails-5] for details.
-
 Usage
 -----
 
