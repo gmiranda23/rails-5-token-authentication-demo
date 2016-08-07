@@ -35,3 +35,8 @@ On the contrary, she must authenticate in ordder to accede to `/restricted_index
   [required_with]: https://rails-5-token-authentication.herokuapp.com/restricted_index?user_email=alice@example.com&user_token=1G8_s7P-V-4MGojaKD7a
   [required_without]: https://rails-5-token-authentication.herokuapp.com/restricted_index
 
+### Hooks
+
+Interested in using [hooks][hooks]? Check your server logs for messages of successful token authentication!
+
+  [hooks]: https://github.com/gonzalo-bulnes/simple_token_authentication/issues/217

@@ -18,4 +18,8 @@ class HomeController < ApplicationController
     def require_authentication!
       throw(:warden, scope: :user) unless current_user.presence
     end
+
+    def after_successful_token_authentication
+      puts "Successfully authenticated #{current_user} (#{current_user.email}) via token authentication."
+    end
 end
