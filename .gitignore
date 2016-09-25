@@ -22,3 +22,6 @@ vendor/bundle
 
 # Ignore Byebug command history file.
 .byebug_history
+
+config/database.yml # edit config/database.example.yml instead
+.ruby-version
