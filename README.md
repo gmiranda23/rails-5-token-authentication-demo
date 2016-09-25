@@ -1,6 +1,8 @@
 Demo: Rails 5 Token Authentication
 ==================================
 
+[![Build Status](https://travis-ci.org/gonzalo-bulnes/rails-5-token-authentication-demo.svg?branch=master)](https://travis-ci.org/gonzalo-bulnes/rails-5-token-authentication-demo)
+
 Demonstrate the [Simple Token Authentication][see] usage in a Rails 5 app.
 
   [see]: https://github.com/gonzalo-bulnes/simple_token_authentication
