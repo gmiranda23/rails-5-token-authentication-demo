@@ -7,25 +7,44 @@ Demo: Rails 5 Token Authentication
 
 Demonstrate the [Simple Token Authentication][see] usage in a Rails 5 app.
 
+This application aims at demonstrating how token authentication can be implemented and tested and documented in a Rails 5 application.
+
+1. **Implementation**: makes use of [Simple Token Authentication][see]
+1. **Testing** and **documentation**: are performed using [RSpec][rspec]
+
   [see]: https://github.com/gonzalo-bulnes/simple_token_authentication
   [rails-5]: https://github.com/gonzalo-bulnes/simple_token_authentication/issues/214
+  [rspec]: https://relishapp.com/rspec
 
 Usage
 -----
 
-### Local
+### Deployment
+
+#### Local
 
 ```bash
 rackup -p 3000 # see http://localhost:3000
 ```
 
-### Heroku
+#### Heroku
 
 Click the button below to automatically set up the demo in an app running on your Heroku account.
 
 [![Deploy](https://www.herokucdn.com/deploy/button.svg)](https://heroku.com/deploy)
 
 Alternatively, you can manually create a Heroku app and use Git to push and deploy.
+
+### Testing and documentation
+
+The application specification can be [read online][online-docs] or generated locally:
+
+```bash
+# Run the test suite and output the app specification
+rake
+```
+
+  [online-docs]: https://travis-ci.org/gonzalo-bulnes/rails-5-token-authentication-demo/builds/162762979#L305
 
 User Data and Must See
 ----------------------
