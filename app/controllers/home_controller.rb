@@ -8,7 +8,6 @@ class HomeController < ApplicationController
   end
 
   def restricted_index
-    require_authentication!
     message = current_user.presence ? 'You are successfully authenticated!' : 'If you see this message, authentication is not required.'
     render json: { current_user: current_user.try(:email), message: message }
   end
