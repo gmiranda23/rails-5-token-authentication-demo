@@ -63,3 +63,27 @@ On the contrary, she must authenticate in ordder to accede to `/restricted_index
 Interested in using [hooks][hooks]? Check your server logs for messages of successful token authentication!
 
   [hooks]: https://github.com/gonzalo-bulnes/simple_token_authentication/issues/217
+
+Development
+-----------
+
+### Goals
+
+This application is meant to be used as an example (think "Hello, World!") to implement token authentication features. The main goal is then to keep the implmenetation of each feature as simple as possible to make it as easy to follow as possible. Please keep that in mind when enhancing this demo!
+
+### Contributions
+
+Only one of the [many possible token authentication scenarios][scenarios] is demonstrated so far. Contributions are welcome!
+
+Credits
+-------
+
+Thank you to [@johnmosesman](https://github.com/johnmosesman) for contributing testing documentation to Simple Token Authentication, that was the inspiration of this demo!
+
+License
+-------
+
+    Demo: Rails 5 Token Authentication
+    Copyright (C) 2016 Gonzalo Bulnes Guilpain
+
+    This application code is placed in the public domain.
