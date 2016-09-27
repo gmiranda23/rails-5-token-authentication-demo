@@ -3,6 +3,7 @@ Demo: Rails 5 Token Authentication
 
 [![Build Status](https://travis-ci.org/gonzalo-bulnes/rails-5-token-authentication-demo.svg?branch=master)](https://travis-ci.org/gonzalo-bulnes/rails-5-token-authentication-demo)
 [![Dependency Status](https://gemnasium.com/badges/github.com/gonzalo-bulnes/rails-5-token-authentication-demo.svg)](https://gemnasium.com/github.com/gonzalo-bulnes/rails-5-token-authentication-demo)
+[![Code Climate](https://codeclimate.com/github/gonzalo-bulnes/rails-5-token-authentication-demo/badges/gpa.svg)](https://codeclimate.com/github/gonzalo-bulnes/rails-5-token-authentication-demo)
 [![Inline docs](http://inch-ci.org/github/gonzalo-bulnes/rails-5-token-authentication-demo.svg?branch=master)](http://inch-ci.org/github/gonzalo-bulnes/rails-5-token-authentication-demo)
 
 Demonstrate the [Simple Token Authentication][see] usage in a Rails 5 app.
