@@ -36,4 +36,4 @@ namespace :app_json do
   end
 end
 
-task :default => ['app_json:validate']
+task :default => ['spec']

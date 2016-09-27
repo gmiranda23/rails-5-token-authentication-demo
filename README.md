@@ -1,27 +1,51 @@
 Demo: Rails 5 Token Authentication
 ==================================
 
+[![Build Status](https://travis-ci.org/gonzalo-bulnes/rails-5-token-authentication-demo.svg?branch=master)](https://travis-ci.org/gonzalo-bulnes/rails-5-token-authentication-demo)
+[![Dependency Status](https://gemnasium.com/badges/github.com/gonzalo-bulnes/rails-5-token-authentication-demo.svg)](https://gemnasium.com/github.com/gonzalo-bulnes/rails-5-token-authentication-demo)
+[![Code Climate](https://codeclimate.com/github/gonzalo-bulnes/rails-5-token-authentication-demo/badges/gpa.svg)](https://codeclimate.com/github/gonzalo-bulnes/rails-5-token-authentication-demo)
+[![Inline docs](http://inch-ci.org/github/gonzalo-bulnes/rails-5-token-authentication-demo.svg?branch=master)](http://inch-ci.org/github/gonzalo-bulnes/rails-5-token-authentication-demo)
+
 Demonstrate the [Simple Token Authentication][see] usage in a Rails 5 app.
+
+This application aims at demonstrating how token authentication can be implemented and tested and documented in a Rails 5 application.
+
+1. **Implementation**: makes use of [Simple Token Authentication][see]
+1. **Testing** and **documentation**: are performed using [RSpec][rspec]
 
   [see]: https://github.com/gonzalo-bulnes/simple_token_authentication
   [rails-5]: https://github.com/gonzalo-bulnes/simple_token_authentication/issues/214
+  [rspec]: https://relishapp.com/rspec
 
 Usage
 -----
 
-### Local
+### Deployment
+
+#### Local
 
 ```bash
 rackup -p 3000 # see http://localhost:3000
 ```
 
-### Heroku
+#### Heroku
 
 Click the button below to automatically set up the demo in an app running on your Heroku account.
 
 [![Deploy](https://www.herokucdn.com/deploy/button.svg)](https://heroku.com/deploy)
 
 Alternatively, you can manually create a Heroku app and use Git to push and deploy.
+
+### Testing and documentation
+
+The application specification can be [read online][online-docs] or generated locally:
+
+```bash
+# Run the test suite and output the app specification
+rake
+```
+
+  [online-docs]: https://travis-ci.org/gonzalo-bulnes/rails-5-token-authentication-demo/builds/162762979#L305
 
 User Data and Must See
 ----------------------
@@ -40,3 +64,27 @@ On the contrary, she must authenticate in ordder to accede to `/restricted_index
 Interested in using [hooks][hooks]? Check your server logs for messages of successful token authentication!
 
   [hooks]: https://github.com/gonzalo-bulnes/simple_token_authentication/issues/217
+
+Development
+-----------
+
+### Goals
+
+This application is meant to be used as an example (think "Hello, World!") to implement token authentication features. The main goal is then to keep the implmenetation of each feature as simple as possible to make it as easy to follow as possible. Please keep that in mind when enhancing this demo!
+
+### Contributions
+
+Only one of the [many possible token authentication scenarios][scenarios] is demonstrated so far. Contributions are welcome!
+
+Credits
+-------
+
+Thank you to [@johnmosesman](https://github.com/johnmosesman) for contributing testing documentation to Simple Token Authentication, that was the inspiration of this demo!
+
+License
+-------
+
+    Demo: Rails 5 Token Authentication
+    Copyright (C) 2016 Gonzalo Bulnes Guilpain
+
+    This application code is placed in the public domain.
