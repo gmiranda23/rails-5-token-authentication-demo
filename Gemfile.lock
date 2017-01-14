@@ -1,13 +1,3 @@
-GIT
-  remote: https://github.com/gonzalo-bulnes/simple_token_authentication.git
-  revision: e8f517726f98bcfe5b1b62e98fcc76d3fa7557c1
-  branch: spike-add-after-successful-token-authentication-hook
-  specs:
-    simple_token_authentication (1.14.0)
-      actionmailer (>= 3.2.6, < 6)
-      actionpack (>= 3.2.6, < 6)
-      devise (>= 3.2, < 6)
-
 GEM
   remote: https://rubygems.org/
   specs:
@@ -197,6 +187,10 @@ GEM
       sprockets-rails (>= 2.0, < 4.0)
       tilt (>= 1.1, < 3)
     shellany (0.0.1)
+    simple_token_authentication (1.15.0)
+      actionmailer (>= 3.2.6, < 6)
+      actionpack (>= 3.2.6, < 6)
+      devise (>= 3.2, < 6)
     slop (3.6.0)
     spring (2.0.0)
       activesupport (>= 4.2)
@@ -252,7 +246,7 @@ DEPENDENCIES
   rainbow (~> 2.0)
   rspec-rails (~> 3.0)
   sass-rails (~> 5.0)
-  simple_token_authentication!
+  simple_token_authentication (~> 1.0)
   spring
   spring-watcher-listen (~> 2.0.0)
   sqlite3
